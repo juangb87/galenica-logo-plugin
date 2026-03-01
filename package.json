@@ -1,0 +1,10 @@
+{
+  "name": "galenica-logo-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx esbuild src/main.ts --bundle --outfile=dist/main.js --format=cjs --target=es2017 --platform=node"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  }
+}

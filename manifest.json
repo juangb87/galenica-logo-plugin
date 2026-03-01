@@ -1,0 +1,13 @@
+{
+  "name": "Galeonica Logo Builder",
+  "id": "galenica-logo-builder",
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "editorType": ["figma"],
+  "relaunchButtons": [
+    {
+      "command": "run",
+      "name": "Rebuild Logo"
+    }
+  ]
+}
